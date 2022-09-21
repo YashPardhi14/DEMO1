@@ -1,0 +1,46 @@
+                                                        Web Application- WorkOut Traker app
+                                                        -----------------------------------
+
+
+
+>EPIC1
+
+*Title-To create the profile of new user...
+       #Summary-To store the personal information of the user and registration.
+
+
+ $Story1-As a customer i want my personal information like name, age,Dob & other info to store in the database 
+
+ $story2- As a customer i want to register my myself with the application.
+
+
+
+
+>EPIC2
+
+ *Title- To store the details of the User goal/Targets & give notifiy the user about the progress.
+         #summary-collect the daily physical excercise target set by the user and daily calories intake target.
+
+
+ $Story1-As a customer i want to set my goal for my daily physical excercise and daily calories intake.
+
+ $Story2-As a customer i want  appliction to take collect my details of my physical activities(like-running,hikking,etc) from my fitness band device.  
+
+ $Story3-As a customer i want application tAKE INPUT from me  of my calories intake after my each meal.
+
+ $Story4-As a customer i want the information from application regarding my progress.
+
+
+>EPIC3
+
+ *Title- To trak the daily activity of the user and notify the details of it to user.
+        #Summary-To make a point whether the user is running,hikking or walking and let the user know how much calorie burned. 
+
+
+   $Story1- As a customer i want appliction to take informatio like calories burn,track heartbeat,track my activity from my wearable device.
+   
+   $Story2-As a customer i want application to tell me about my performance whether i had done well or i need to push more.
+
+   $Story3-As a customer i want appliction to motivate me with some motivation quotes to push my limits.
+
+
