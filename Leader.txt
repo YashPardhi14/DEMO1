@@ -1,0 +1,29 @@
+package Assignment5;
+import java.util.*;
+public class ArrayLeader {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the no. elements of an array(contain atleast 2 elements):");
+		int n=s.nextInt();
+		int[] old=new int[n];
+		 
+		for(int i=0;i<n;i++) {
+			System.out.println("Enter the elements at "+i+"inedx no.-");
+			old[i]=s.nextInt();
+			}
+		for(int i=0;i<n;i++) {
+			 boolean check=false;
+//			 
+			for(int j=i+1;j<n;j++) {
+				  if(old[i]<old[j]) {
+					  check =true;
+					  break;
+				  }
+				   }
+			if(check==false) System.out.print(old[i]+" ");
+
+}
+		s.close();
+}
+}
